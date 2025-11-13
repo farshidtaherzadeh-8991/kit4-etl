@@ -1,0 +1,12 @@
+
+*.db
+*.db-wal
+*.db-shm
+
+
+*.zip
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+.env

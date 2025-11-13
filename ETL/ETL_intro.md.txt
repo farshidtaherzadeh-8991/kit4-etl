@@ -1,0 +1,47 @@
+# Introduction aux concepts ETL, ELT, Data Lake et Data Warehouse
+
+##  Critères pédagogiques
+- Comprendre la différence entre ETL et ELT
+- Comprendre la différence entre Data Lake et Data Warehouse
+
+---
+
+##  Comparaison ETL vs ELT
+
+| Processus | Description | Cas d’usage typique |
+|-----------|-------------|---------------------|
+| **ETL**   | Extraction → Transformation → Chargement. Les données sont transformées avant d’être chargées dans le système cible. | Adapté aux **Data Warehouses** |
+| **ELT**   | Extraction → Chargement → Transformation. Les données sont chargées telles quelles, puis transformées dans le système cible. | Adapté aux **Data Lakes** |
+
+---
+
+##  Data Lake vs  Data Warehouse
+
+| Critère                  | Data Lake                            | Data Warehouse                        |
+|--------------------------|---------------------------------------|----------------------------------------|
+| Type de données          | Structurées, semi-structurées, brutes | Structurées uniquement                 |
+| Format                   | JSON, CSV, XML, Parquet, etc.         | Tables relationnelles SQL              |
+| Coût de stockage         | Faible                                | Élevé                                  |
+| Flexibilité              | Très élevée                           | Moins flexible mais optimisé pour BI   |
+| Transformation des données | Après chargement (ELT)              | Avant chargement (ETL)                 |
+| Outils typiques          | Hadoop, Spark, Azure Data Lake        | Snowflake, Redshift, BigQuery          |
+
+---
+
+##  Choix du processus pour mon projet
+
+Dans le cadre de mon projet individuel, j’ai choisi d’utiliser une approche **ETL** car :
+- Les données proviennent de sources hétérogènes (scraping, API, CSV)
+- Une transformation est nécessaire avant l’intégration dans une base SQLite
+- Le modèle de données est relationnel et structuré
+
+Ce choix est cohérent avec les principes d’un **Data Warehouse**, où la qualité et la structure des données sont prioritaires.
+
+---
+
+##  Preuve de travail
+
+- Comparaison ETL vs ELT et Data Lake vs Data Warehouse (ci-dessus)
+- Documentation enregistrée dans `ETL/docs/etl_intro.md`
+- Présentation du choix technique dans le dépôt GitHub
+- Implémentation d’un premier job ETL dans `ETL/jobs/etl_commune.py`
