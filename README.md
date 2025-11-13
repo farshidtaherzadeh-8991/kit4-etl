@@ -7,7 +7,7 @@ Ce projet vise à migrer et normaliser six fichiers CSV vers une base de donnée
 extraction/ ├── ETL/ │   ├── jobs/              # Scripts ETL pour chaque entité │   ├── docs/              # Documentation technique pour chaque job │   ├── run_all_etl.py     # Script principal pour exécuter tous les jobs │   └── README.md          # Ce fichier ├── migrations/            # Fichiers CSV sources ├── database/              # Base de données SQLite (exclue du Git)
 
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 - Python 3.x
 - SQLite
 - Pandas
