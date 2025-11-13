@@ -13,7 +13,7 @@ extraction/ ├── ETL/ │   ├── jobs/              # Scripts ETL pour
 - Pandas
 - Git
 
-## 🚀 Instructions d’exécution
+##  Instructions d’exécution
 
 1. Cloner le dépôt :
    ```bash
@@ -33,12 +33,8 @@ Chaque script ETL est accompagné d’un fichier Markdown dans ETL/docs/ expliqu
 - Les transformations appliquées
 - Les clés primaires et étrangères
 - Les liens avec le diagramme UML
-👤 Auteur
+   Auteur
 Farshid Taherzadeh
 Projet académique – Grenoble, France
 Langues : 🇫🇷 Français 
-
-
-✅ این فایل باعث می‌شه پروژه‌ات کاملاً قابل فهم، قابل اجرا، و حرفه‌ای به نظر برسه.
-
-اگر خواستی، می‌تونم یه نسخه فارسی هم از `README.md` برات آماده کنم یا کمک کنم یه `release` برای تحویل نهایی بسازی. بگو با چی ادامه بدیم
+م
